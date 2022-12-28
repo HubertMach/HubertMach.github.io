@@ -1,0 +1,67 @@
+*{
+    font-family: 'Prosto One', cursive;
+    margin: 0;
+}
+
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.nav-center{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.nav-left{
+    width: 30%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links{
+    font-size: larger;
+    background-color: transparent;
+    border: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.nav-right{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+}
+
+.btn{
+    background-color: transparent;
+    height: 60px;
+    width: 15rem;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
